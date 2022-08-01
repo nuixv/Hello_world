@@ -14,3 +14,8 @@ class calculator:
 
     def div(self):
         return self.a / self.b
+
+print(calculator(10, 20).add())
+print(calculator(10, 20).sub())
+print(calculator(10, 20).mul())
+print(calculator(10, 20).div())
